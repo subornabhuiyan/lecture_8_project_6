@@ -1,0 +1,714 @@
+/* ----------Default css---------- */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6,p,span,a,button{
+        font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.notary-container{
+    width: 70%;
+    margin: 0 auto;
+}
+nav{}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+}
+.notary-btn{
+    text-transform: uppercase;
+    padding: 15px 30px;
+    color: white;
+    background:#BD233F;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Notary start */
+
+/* notary header start */
+.notary-header{
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.n-logo-left{
+    width: 10%;
+}
+
+.n-menu-right{
+    width: 8s0%;
+}
+.n-menu-right a{
+    padding: 12px 25px;
+    color: black;
+}
+.n-menu-right ul li:last-child a{
+    padding-right: 0;
+}
+/* notary header end */
+
+/* notary banner start */
+.n-banner-section{
+    background: url(../images/banner-n.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px;
+    position: relative;
+    z-index: 1;
+}
+ .n-banner-section::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    background-color: rgba(0, 0, 0,.7);
+    z-index: -1;
+
+} 
+.n-banner-section .notary-container{
+    
+}
+.n-banner-content{
+    width: 65%;
+    z-index: 10;
+    margin-left: 5.5%;
+}
+.n-banner-content h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 4rem;
+    margin-right: 33%;
+    /* word-spacing: .5rem; */
+}
+.n-banner-content h1 span{
+
+}
+.n-banner-content p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 31%;
+    line-height: 2rem;
+}
+.n-banner-content button{}
+
+/* notary banner end */
+/* How it works section start */
+.n-work-section{
+    padding: 5rem 0 6rem 0;
+}
+.n-work{}
+.work-title{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.work-title h2{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    word-spacing: .5rem;
+}
+.work-title p{
+    width: 65%;
+    margin: 2rem auto;
+    line-height: 2rem;
+    color: #606060;
+}
+.work-container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.n-work .work-content {
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin-right: 4.98%;
+    padding: 45px 0;
+}
+.n-work .work-content:last-child{
+    margin-right: 0;
+}
+.n-work .work-content .work-circle{
+    position: relative;
+    width: 12.2rem;
+    height: 12.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 1.8rem;
+    z-index: 1;
+}
+.n-work .work-content .work-circle i{
+    width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
+    font-size: 4rem;
+    color: white;
+    background-color: #535D69;
+    text-align: center;
+    border:1.2rem solid #556A85;
+    border-radius: 50%;
+}
+.n-work .work-content .work-circle::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(138, 163, 193) ;
+    border-radius: 50%;
+    z-index: -1;
+}
+.n-work .work-content .work-circle-title{
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.n-work .work-content .work-circle-2 i{
+    background-color: #BD233F;
+    border-color: #C63C56;
+}
+.n-work .work-content .work-circle-2::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(138, 163, 193) ;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #E799A7;
+}
+
+/* How it works section end */
+
+/* process start */
+.process-section{
+    overflow: hidden;
+    background-color: #FAFAFA;
+    padding: 9rem 0;
+}
+.process-left{
+    width: 58%;
+    float: left;
+}
+.process-left h2{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    word-spacing: .5rem;
+    line-height: 1.4;
+    text-align: left;
+    
+}
+.process-left p{
+    width: 70%;
+    margin: 3rem 0;
+    line-height: 2rem;
+    color: #606060;
+    text-align: left;
+}
+.process-right{
+    width: 40%;
+    float: right;
+    position: relative;
+    
+}
+.process-right a{
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    font-size: 3.7rem;
+    line-height: 5rem;
+    background-color: #BD233F;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 43%;
+    bottom: 43%;
+} 
+.process-right a::before{
+    content: "";
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #BD233F;
+    border-radius: 50%;
+    animation: play-btn 1.3s ease-out infinite;
+} 
+@keyframes play-btn{
+    0%{
+        transform: scale(1);
+        opacity: .1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .5;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+
+}
+
+/* process end */
+/* Feature start */
+.feature-section{
+    padding: 7rem 0;
+}
+.feature-title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.feature-title h2{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    word-spacing: .5rem;
+}
+.feature-title p{
+    width: 65%;
+    margin: 2rem auto;
+    line-height: 2rem;
+    color: #606060;
+}
+.all-features{
+    overflow: hidden;
+    padding: 2rem 1rem;
+}
+.feature-box{
+    width: 30%;
+    text-align: center;
+    /* background-color: pink; */
+    padding: 3rem 0;
+    box-sizing: border-box;
+    box-shadow: .2rem .1rem .7rem 0 rgba(0, 0, 0,.2);
+    float: left;
+    margin-right: 5%;
+    margin-top: 2rem;
+    transition: .4s ease-in;
+}
+.feature-box:nth-child(3n+3){
+    margin-right: 0;
+}
+.f-icon{
+    height: 5rem;
+    width: 5rem;
+    font-size: 5rem;
+    margin: auto;
+    color:#546B8A ;
+}
+.box-title{
+    width: 85%;
+    margin: auto;
+}
+.box-title h3{
+    font-size: 1.3rem;
+    font-weight: 600; 
+    margin-top: 2rem ;
+    margin-bottom: 1.3rem;
+    text-transform: capitalize;
+}
+.box-title p{
+    color: #606060;
+    width: 95%;
+    margin: auto;
+   
+}
+.feature-box:hover{
+    box-shadow: .2rem .1rem .7rem 0 rgba(0, 0, 0,.2);
+    transform: translateY(-.9rem);
+}
+.feature-box i{
+    transition: .4s;
+}
+.feature-box:hover i{
+    color: #BD233F;
+}
+/* Feature end */
+/* Contact start */
+.contact-section{
+    background-color: black;
+    padding: 6rem 0;
+}
+.contact-section h3{
+    color: #BD233F;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    word-spacing: .4rem;
+    margin-bottom: 1.8rem;
+}
+.contact{
+    width: 30%;
+    margin-right: 5%;
+}
+.contact i{
+    color: #BD233F;
+    font-size: 1.2rem;
+}
+.contact-nav{
+    margin-bottom: 3rem;
+}
+.contact-nav li{
+    display: block;
+}
+.contact-nav a{
+    color: white;
+    margin: .4rem 0;
+}
+.contact-nav a i{
+    height: auto;
+    width: 1.4rem;
+    color: #BD233F;
+}
+.contact-nav a p{
+    font-weight: 200;
+    display: inline-block;
+    font-size: 1rem;
+}
+.icon-nav{}
+.icon-nav li{
+    margin-right: 3%;
+}
+.icon-nav a{
+}
+.icon-nav i{
+    font-size: 1.4rem;
+    transition: .4s;
+    color: #546B8A
+}
+.icon-nav a:hover i{
+    color: white;
+}
+
+.link{
+    width: 30%;
+    margin-right: 5%;
+}
+.link nav{}
+.link nav li{
+    display: block;
+}
+.link nav li a{
+    color: white;
+    margin: .2rem 0;
+}
+.link nav li a i{
+    height: auto;
+    width: 1rem;
+    color: #546B8A;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+.link nav li a p{
+    font-weight: 100;
+    display: inline-block;
+    font-size: 1rem;
+    /* color: #546B8A;s */
+    font-weight: 200;
+    transition: .5s;
+}
+.link nav li a:hover p{
+    color: #BD233F;
+}
+.link nav li a:hover i{
+    color: #BD233F;
+
+}
+.newsletter{
+    width: 30%;
+}
+.newsletter p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.newsletter input{
+    padding: 1rem 5.1rem 1rem 1rem;
+    border-radius: 5px 0 0 5px;
+    border:3px solid #546B8A ;
+    outline: none;
+    background-color: transparent;
+    color: white;
+
+}
+.newsletter button{
+    border-radius: 5px;
+    margin-left: -8px ;
+}
+.newsletter input::placeholder{
+    color: #546B8A ;
+    opacity: 1;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: black;
+
+}
+/* Contact end */
+/* Footer start */
+.n-footer-section{
+    background-color:#546B8A ;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+.n-footer{
+    color: white;
+}
+.n-footer p{
+    font-weight: 200;
+}
+/* Footer end */
+
+/* Quick page start */
+
+/* -----------Default css------------ */
+
+.fixed-width{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Start */
+
+.header{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.header .container{
+    width: 90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+/* logo */
+
+.container .logo{
+    width: 10%;
+    float: left;
+}
+.container .logo a img{
+    width: 100%;
+}
+
+/* menu */
+
+.container .menu{
+    width: 40%;
+    float: right;
+}
+.container .menu ul{
+    list-style: none;
+    float: right;
+}
+.container .menu ul li{
+    float: left;
+}
+.container .menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 19px 0;
+    color: #0F2656;
+
+    transition: .3s;
+}
+.container .menu ul li:last-child a{
+    margin-right: 0;
+}
+.container .menu ul li a:hover{
+    color: #0D69F9;
+}
+
+/* Header End */
+
+/* Banner start */
+
+.banner{
+    margin: 50px 0;
+}
+.banner-title{}
+.banner-title h2{
+    text-align: center;
+    color: #0F2656;
+    font-size: 4rem;
+}
+.banner-subtitle{
+    text-align: center;
+}
+.banner-subtitle h2{
+    color: #0D69F9;
+    margin: 2rem 0;
+}
+.banner-subtitle p{
+    width: 45%;
+    line-height: 1.7rem;
+    margin: auto;
+    color: #0F2656;
+    font-weight: 300;
+    word-spacing: .05rem;
+    margin-bottom: 50px;
+}
+.banner-img{
+    width: 40%;
+    margin: auto;
+}
+/* Banner End */
+
+/* sucess section start*/
+.success-section{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.success-left{
+    width: 47%;
+    float: left;
+    text-align: right;
+}
+.success-left h2{
+    font-size: 3.5rem;
+    color: #F15767;
+    margin-bottom: 2rem;
+}
+.success-left p{
+    width: 45%;
+    font-size: 19px;
+    line-height: 1.8rem;
+    color: #0F2656;
+    font-weight: 300;
+    word-spacing: .09rem;
+    text-align: right;
+    float: right;
+}
+.success-right{
+    width: 47%;
+    float: right;
+    text-align: left;
+}
+.success-right h2{
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    width: 60%;
+    color: #0F2656;
+}
+/* success end */
+
+/* service start */
+.service-section{
+    margin-bottom: 8rem;
+}
+.service-section .fixed-width{
+    overflow: hidden;
+}
+.service1{
+    width: 30%;
+    float: left;
+    background-color: #FEEBED;
+}
+
+.service2{
+    width: 30%;
+    float: left;
+    margin: 0 5%;
+    background-color: #EAF9F4;
+}
+.service3{
+    width: 30%;
+    float: left;
+    background-color: #FFF8E8;
+
+}
+.card{
+}
+.card img{}
+.card .title{
+    text-align: center;
+    padding: 10px 0;
+}
+.card .title h3{
+    color: #0F2656;
+    font-size: 25px;
+    margin: 30px 0;
+}
+.card .title p{
+    line-height: 1.7rem;
+    color: #0F2656;
+    font-weight: 300;
+    word-spacing: .05rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+/* service End */
+/* footer start */
+.footer-section{
+    background-color: #0D69F9;
+    padding: 2.5rem 0;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.footer span{
+    color: rgb(181, 228, 247);
+    font-weight: 100;
+}
+.footer span p{
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+/* Quick page end */
